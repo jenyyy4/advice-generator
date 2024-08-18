@@ -1,0 +1,66 @@
+* {
+    margin:0;
+    padding:0;
+    text-align: center;
+}
+
+h1 {
+    background-color: #ffe5ec;
+    color: #fb6f92;
+    height: 5rem;
+    line-height: 5rem;
+    font-size: 50px;
+}
+
+img {
+    height: 300px;
+    display: flex;
+    justify-content: flex-start;
+    margin-left: 15rem;
+    margin-top: 1rem;
+}
+
+p {
+    color: #fb6f92;
+    height: 5rem;
+    line-height: 5rem;
+    font-size: 50px;
+    font-family: "Courier New";
+}
+
+#img {
+    display: flex;
+    align-items: center;
+    gap: 100px;
+}
+
+#advice {
+    color: #fb6f92;
+    height: 5rem;
+    line-height: 5rem;
+    font-size: 50px;
+    padding: 2rem;
+    /* padding-bottom: 0; */
+    font-family: "Courier New";
+    font-weight: bold;
+    margin-bottom: 5rem;
+}
+
+button {
+    background-color: #ffe5ec;
+    color: #fb6f92;
+    height: 80px;
+    font-size: 40px;
+    display: inline;
+    /* padding: 1rem; */
+    border-radius: 1rem;
+    border-color: #ffe5ec;
+    font-family: "sans-serif";
+    font-weight: bold;
+}
+
+button:hover {
+    background-color: #fb6f92;
+    color: #ffe5ec;
+    cursor:pointer;
+}
